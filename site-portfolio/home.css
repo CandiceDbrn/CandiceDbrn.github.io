@@ -1,0 +1,289 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200&family=News+Cycle:wght@700&family=Sarala:wght@400;700&family=Titillium+Web:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Baskervville&family=Be+Vietnam+Pro:wght@200&family=Bebas+Neue&family=Dela+Gothic+One&family=Luckiest+Guy&family=News+Cycle:wght@700&family=Sarala:wght@400;700&family=Titillium+Web:wght@200&display=swap');
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+
+}
+
+:root{
+    --main-font-family:'Light 300', sans-serif;
+    --main-colortitle:#4A5F99;
+    --main-fonttitle:'Bebas Neue', sans-serif;
+    --main-bgsection:#E4E6EE;
+}
+
+a{
+    text-decoration:none; 
+    
+}
+
+/*Navigation bar*/
+nav{
+   width:100%; 
+   height:100%;
+   
+   display:flex;
+   justify-content:center;
+   align-items:center;
+
+   font-family:var(--main-font-family);
+   
+   background-color: #4A5F99;
+   color:white;
+
+   
+;
+}
+
+
+
+nav a{
+    color:white;
+    font-size:1em;
+}
+
+#A-Propos:target h2{
+    text-decoration:underline;
+}
+
+
+
+nav ul {
+    width:100%;
+    float:center;
+    display: inline-flex;
+    justify-content:center;
+    text-align:center;
+    
+    
+}
+
+
+nav li{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    list-style: none;
+    text-align:center;
+    padding:35px;
+}
+
+nav a:visited{
+    color:white;
+}
+
+/*Tableu infor perso*/
+
+header table{
+    margin:5%;
+    font-family:var(--main-font-family);
+}
+
+h2{
+    color:var(--main-colortitle);
+    font-family:var(--main-fonttitle);
+    text-transform:uppercase;
+    letter-spacing: 1px;
+}
+
+#corps{
+    margin:5%;
+   
+    
+
+}
+
+section {
+    background-color:var(--main-bgsection);
+    padding:2%;
+    box-shadow: 3%;
+}
+
+
+/*Paragraphes*/
+#A-Propos{
+    text-align:center;
+}
+
+#A-Propos > p{
+    font-family:var(--main-font-family);
+    
+    
+}
+
+
+
+#CV h3{
+    font-family:var(--main-fonttitle);
+    color:var(--main-colortitle);
+    letter-spacing: 1px;
+}
+
+#CV{
+    font-family: var(--main-font-family);
+}
+
+.titleCV{
+    padding:1%;
+}
+
+.titleCV h2{
+    text-align:center;
+}
+
+#CV table{
+    border:1px solid black;
+    border-collapse:collapse;
+    
+}
+
+#CV td{
+    border:1px solid black;
+    padding:10px 20px 10px 20px;
+}
+
+
+
+#CV tr:nth-child(1) td:nth-child(1)
+{background-color: rgb(204,229,255);}
+#CV tr:nth-child(1) td:nth-child(2)
+{background-color: white;}
+#CV tr:nth-child(2) td:nth-child(2)
+{background-color: rgb(204,229,255);}
+#CV tr:nth-child(2) td:nth-child(1)
+{background-color: white;}
+#CV tr:nth-child(3) td:nth-child(1)
+{background-color: rgb(204,229,255);}
+#CV tr:nth-child(3) td:nth-child(2)
+{background-color: white;}
+
+
+
+/*Articles*/
+
+#blog{
+    font-family: var(--main-font-family);
+    text-align:center;
+}
+
+.grille{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+    
+    
+
+}
+
+.grille h3{
+    color:black;
+}
+
+.grille h3:hover{
+    text-decoration:underline;
+}
+
+
+#blog img{
+    width:400px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:8px;
+}
+
+#preview{
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+#preview h3{
+    text-align:center;
+    
+}
+
+
+/*Contact*/
+
+
+
+
+footer>h2{
+    text-align:center;
+}
+
+footer #contact{
+    font-family:var(--main-font-family);
+}
+
+form{
+    background-color:var(--main-colortitle);
+    padding:5%;
+}
+
+#formcontact{
+    width:40%;
+    
+}
+
+#formcontact label{
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+    width:80%;
+    padding:12px;
+    color:white;
+    
+    
+}
+
+#formcontact label[name=recontact]{
+    text-align:center;
+    color:white;
+}
+
+#formcontact input[type=text]{
+    width:80%;
+    padding:12px;
+}
+
+#check{
+    display:flex;
+    flex-direction: column-reverse;
+    align-items:center;
+    
+    
+    
+}
+
+
+#formcontact input[type=checkbox]{
+    width:20px;
+    height:20px;
+}
+
+#formcontact input[type="checkbox"]:checked~label {
+    color: #E2A180;
+}
+
+#formcontact input[type=submit]{
+    margin:10px;
+    width:10rem;
+    height:3rem;
+}
+

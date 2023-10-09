@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200&family=News+Cycle:wght@700&family=Sarala:wght@400;700&family=Titillium+Web:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Baskervville&family=Be+Vietnam+Pro:wght@200&family=Bebas+Neue&family=Dela+Gothic+One&family=Luckiest+Guy&family=News+Cycle:wght@700&family=Sarala:wght@400;700&family=Titillium+Web:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Baskervville&family=Be+Vietnam+Pro:wght@200&family=Bebas+Neue&family=Dela+Gothic+One&family=Josefin+Sans:ital,wght@1,700&family=Luckiest+Guy&family=News+Cycle:wght@700&family=Sarala:wght@400;700&family=Titillium+Web:wght@200&display=swap');
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    --main-font-family:'Light 300', sans-serif;
+    --main-colortitle:#4A5F99;
+    --main-fonttitle:'Bebas Neue', sans-serif;
+    --main-bgsection:#E4E6EE;
+}
+
+article h2{
+    font-family:var(--main-fonttitle);
+    color:var(--main-colortitle);
+    text-align:center;
+    font-size:30px;
+    margin:2%;
+}
+
+.skills{
+    margin:5%;
+}
+
+.skills h3{
+    font-family:var(--main-font-family);
+    margin-top:5%;
+    font-size:20px;
+}
+
+.skills p{
+    font-family:var(--main-font-family);
+    font-size:20px;
+    line-height: 1.3em;
+    margin:15px;
+
+}
+
+.skills p::before{
+    content:"Handball";
+    color:white;
+    padding:7px;
+    
+    margin-right:10px;
+    background-color:var(--main-colortitle);
+    border-radius:20px;
+    font-size:0.8em;
+
+}
+
+.skills img{
+    display:block;
+    margin:auto;
+    width:700px;
+    max-width:100%;
+    
+}
+
+.skills img[name=img3]{
+    height:400px;
+    max-width:100%;
+}
+
+.skills q{
+    color:var(--main-colortitle);
+    text-decoration: bold;
+    font-size:2rem;
+    font-family:'Anton', sans-serif;
+}
+
+#resp{
+    
+    display:flex;
+    flex-direction:row-reverse;
+    align-items:center;
+    
+    width:100%;
+}
+
+
+
+
+aside{
+    width:25%;
+    
+    padding:1.5%;
+
+    margin-left:1.2rem;
+    float:right;
+    
+    display:block;
+    text-align:center;
+
+    box-shadow: inset 5px 0 5px -5px #4A5F99;
+    font-style: italic;
+    color: #4A5F99;
+
+   
+    
+    
+
+}
+aside h3{
+    font-family: var(--main-fonttitle);
+    
+}
+
+aside a{
+    text-decoration:none;
+    display: block;
+    color:#4A5F99;
+    font-size:1.3rem;
+    
+}
+
+aside a:hover{
+    text-decoration:underline;
+}
+
+.Verif{
+    text-align:center;
+    font-family: var(--main-font-family);
+    
+
+}
+
+.Verif fieldset{
+    border:0;
+}
+
